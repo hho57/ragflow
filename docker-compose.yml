@@ -19,7 +19,7 @@ services:
     expose:
       - "80"
       - "9380"
-    eports:
+    ports:
       - "28080:80"
       - "9380"
     volumes:
