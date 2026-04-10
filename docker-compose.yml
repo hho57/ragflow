@@ -19,6 +19,9 @@ services:
     expose:
       - "80"
       - "9380"
+    eports:
+      - "28080:80"
+      - "9380"
     volumes:
       - ragflow_data:/ragflow/data
       - ragflow_logs:/ragflow/logs
